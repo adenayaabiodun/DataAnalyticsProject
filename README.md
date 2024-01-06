@@ -11,3 +11,23 @@
    **Formula:**
    ```excel
    =COUNTIF(B2:B101, "<>"&TRIM(B2:B101))
+Assuming product names are in column B
+
+## Text Manipulation
+**Question 2: Uppercase Product Names**
+*What is the total number of product names converted to uppercase using the UPPER functions, follow these steps:*
+1. Use the UPPER function to convert product names to uppercase.
+2. Count the cases where the result is "YES"
+  **Formula:**
+   ``` excel
+   =COUNTIF(C2:C101, "YES")
+
+ **Question 3: Lowercase Product Names**
+*How many product names are transformed into lowercase using the LOWER function?*
+
+**Answer: To count the product names transformed into lowercase using the LOWER function, follow these steps:**
+  1. Use the LOWER function to convert product names to lowercase.
+  2. Count the cases where the result is "YES"
+    **Formula:**
+     ```excel
+     =countif(D2:D101, "YES")
